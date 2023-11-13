@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MemoTest.Entidades
 {
-    internal class ButtonGame : Button
+    public class ButtonGame : Button
     {
         public bool flipped { get; set; }
-
+        public string value { get; set; }
     }
 }
