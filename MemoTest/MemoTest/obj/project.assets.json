@@ -1215,19 +1215,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ariel.romero\\.nuget\\packages\\": {}
+    "C:\\Users\\sebap\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos Test\\MemoTest\\MemoTest\\MemoTest.csproj",
+      "projectUniqueName": "C:\\Users\\sebap\\Desktop\\MemoTest\\MemoTest\\MemoTest.csproj",
       "projectName": "MemoTest",
-      "projectPath": "D:\\Proyectos Test\\MemoTest\\MemoTest\\MemoTest.csproj",
-      "packagesPath": "C:\\Users\\ariel.romero\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos Test\\MemoTest\\MemoTest\\obj\\",
+      "projectPath": "C:\\Users\\sebap\\Desktop\\MemoTest\\MemoTest\\MemoTest.csproj",
+      "packagesPath": "C:\\Users\\sebap\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sebap\\Desktop\\MemoTest\\MemoTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ariel.romero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sebap\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1277,7 +1277,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

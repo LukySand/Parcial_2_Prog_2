@@ -12,7 +12,7 @@ namespace MemoTest
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Controladores.Conexion.OpenConnection();
-            Application.Run(new Form1());
+            Application.Run(new Menu());
             Controladores.Conexion.CloseConnection();
         }
     }
