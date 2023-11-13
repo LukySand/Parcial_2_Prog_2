@@ -9,6 +9,7 @@ namespace MemoTest
         {
             InitializeComponent();
             panelCategories.Hide();
+            panelDifficulty.Hide();
 
         }
 
@@ -26,6 +27,25 @@ namespace MemoTest
         {
             panelMenu.Hide();
             panelCategories.Show();
+        }
+
+        private void CategoriesSelect(object sender, EventArgs e)
+        {
+            panelCategories.Hide();
+            panelDifficulty.Show();
+        }
+
+        private void DifficultySelect(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            if (button.Text == "Easy")
+            {
+                Program.Difficulty = 0;
+            }
+            else
+            {
+                Program.Difficulty = 1;
+            }
         }
     }
 }

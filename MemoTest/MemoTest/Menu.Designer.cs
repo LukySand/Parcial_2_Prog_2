@@ -39,8 +39,14 @@
             label3 = new Label();
             btAnimals = new Button();
             label2 = new Label();
+            panelDifficulty = new Panel();
+            btHard = new Button();
+            label4 = new Label();
+            btEasy = new Button();
+            label5 = new Label();
             panelMenu.SuspendLayout();
             panelCategories.SuspendLayout();
+            panelDifficulty.SuspendLayout();
             SuspendLayout();
             // 
             // panelMenu
@@ -122,6 +128,7 @@
             btCountries.TabIndex = 6;
             btCountries.Text = "Countries";
             btCountries.UseVisualStyleBackColor = false;
+            btCountries.Click += CategoriesSelect;
             // 
             // btBibleCaracters
             // 
@@ -136,6 +143,7 @@
             btBibleCaracters.TabIndex = 5;
             btBibleCaracters.Text = "Bible Caracters";
             btBibleCaracters.UseVisualStyleBackColor = false;
+            btBibleCaracters.Click += CategoriesSelect;
             // 
             // btFootball
             // 
@@ -150,6 +158,7 @@
             btFootball.TabIndex = 4;
             btFootball.Text = "Football";
             btFootball.UseVisualStyleBackColor = false;
+            btFootball.Click += CategoriesSelect;
             // 
             // label3
             // 
@@ -175,6 +184,7 @@
             btAnimals.TabIndex = 2;
             btAnimals.Text = "Animals";
             btAnimals.UseVisualStyleBackColor = false;
+            btAnimals.Click += CategoriesSelect;
             // 
             // label2
             // 
@@ -187,11 +197,76 @@
             label2.TabIndex = 0;
             label2.Text = "Memorium";
             // 
+            // panelDifficulty
+            // 
+            panelDifficulty.BackColor = Color.Black;
+            panelDifficulty.Controls.Add(btHard);
+            panelDifficulty.Controls.Add(label4);
+            panelDifficulty.Controls.Add(btEasy);
+            panelDifficulty.Controls.Add(label5);
+            panelDifficulty.Location = new Point(0, 2);
+            panelDifficulty.Name = "panelDifficulty";
+            panelDifficulty.Size = new Size(542, 595);
+            panelDifficulty.TabIndex = 7;
+            // 
+            // btHard
+            // 
+            btHard.BackColor = Color.Black;
+            btHard.BackgroundImageLayout = ImageLayout.None;
+            btHard.FlatStyle = FlatStyle.Popup;
+            btHard.Font = new Font("Viner Hand ITC", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btHard.ForeColor = Color.LightSteelBlue;
+            btHard.Location = new Point(165, 320);
+            btHard.Name = "btHard";
+            btHard.Size = new Size(217, 82);
+            btHard.TabIndex = 4;
+            btHard.Text = "Hard";
+            btHard.UseVisualStyleBackColor = false;
+            btHard.Click += DifficultySelect;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Viner Hand ITC", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = Color.PowderBlue;
+            label4.Location = new Point(189, 69);
+            label4.Name = "label4";
+            label4.Size = new Size(192, 47);
+            label4.TabIndex = 3;
+            label4.Text = "Diffuculty:";
+            // 
+            // btEasy
+            // 
+            btEasy.BackColor = Color.Black;
+            btEasy.BackgroundImageLayout = ImageLayout.None;
+            btEasy.FlatStyle = FlatStyle.Popup;
+            btEasy.Font = new Font("Viner Hand ITC", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            btEasy.ForeColor = Color.LightSteelBlue;
+            btEasy.Location = new Point(164, 216);
+            btEasy.Name = "btEasy";
+            btEasy.Size = new Size(217, 82);
+            btEasy.TabIndex = 2;
+            btEasy.Text = "Easy";
+            btEasy.UseVisualStyleBackColor = false;
+            btEasy.Click += DifficultySelect;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Viner Hand ITC", 27.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = Color.PowderBlue;
+            label5.Location = new Point(165, 9);
+            label5.Name = "label5";
+            label5.Size = new Size(217, 60);
+            label5.TabIndex = 0;
+            label5.Text = "Memorium";
+            // 
             // Menu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(545, 595);
+            Controls.Add(panelDifficulty);
             Controls.Add(panelCategories);
             Controls.Add(panelMenu);
             Margin = new Padding(3, 2, 3, 2);
@@ -202,6 +277,8 @@
             panelMenu.PerformLayout();
             panelCategories.ResumeLayout(false);
             panelCategories.PerformLayout();
+            panelDifficulty.ResumeLayout(false);
+            panelDifficulty.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -218,5 +295,13 @@
         private Button btCountries;
         private Button btBibleCaracters;
         private Button btFootball;
+        private Panel panelDifficulty;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Label label4;
+        private Button btEasy;
+        private Label label5;
+        private Button btHard;
     }
 }

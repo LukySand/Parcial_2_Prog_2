@@ -1220,11 +1220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sebap\\Desktop\\MemoTest\\MemoTest\\MemoTest.csproj",
+      "projectUniqueName": "C:\\Users\\sebap\\Desktop\\Parcial_2_Prog_2\\MemoTest\\MemoTest\\MemoTest.csproj",
       "projectName": "MemoTest",
-      "projectPath": "C:\\Users\\sebap\\Desktop\\MemoTest\\MemoTest\\MemoTest.csproj",
+      "projectPath": "C:\\Users\\sebap\\Desktop\\Parcial_2_Prog_2\\MemoTest\\MemoTest\\MemoTest.csproj",
       "packagesPath": "C:\\Users\\sebap\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sebap\\Desktop\\MemoTest\\MemoTest\\obj\\",
+      "outputPath": "C:\\Users\\sebap\\Desktop\\Parcial_2_Prog_2\\MemoTest\\MemoTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sebap\\AppData\\Roaming\\NuGet\\NuGet.Config",
